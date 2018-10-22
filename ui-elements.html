@@ -8,25 +8,6 @@
     <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
     <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
     <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="img/favicon/manifest.json">
-    <link rel="shortcut icon" href="img/favicon/favicon.ico">
-    <meta name="msapplication-TileColor" content="#663fb5">
-    <meta name="msapplication-TileImage" content="img/favicon/mstile-144x144.png">
-    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#663fb5">
     <!-- Only needed Bootstrap bits + custom CSS in one file -->
     <link rel="stylesheet" href="css/landio.css">
   </head>
@@ -39,95 +20,50 @@
     <!-- WHITE navigation
     ================================================== -->
 
-    <nav class="navbar bg-white">
+    <nav class="navbar navbar-dark bg-inverse navbar-fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <span class="icon-logo"></span>
-          <span class="sr-only">Land.io</span>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" />
+          <span class="sr-only">Crescent Services</span>
         </a>
         <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
         &#9776;
       </a>
-        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
-          <span class="icon-user"></span>
-        </a>
         <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
           <ul class="nav navbar-nav pull-xs-right">
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="http://tympanus.net/codrops/?p=25217" target="_blank">Codrops</a>
+              <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="./index.html">Land.io</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="./index-carousel.html">Slides</a>
-            </li>
-            <li class="nav-item nav-item-toggable active">
-              <a class="nav-link" href="ui-elements.html">UI Kit <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item nav-item-toggable">
-              <a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a>
-            </li>
-            <li class="nav-item nav-item-toggable hidden-md-up">
-              <form class="navbar-form">
-                <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
-              </form>
-            </li>
-            <li class="navbar-divider hidden-md-down"></li>
-            <li class="nav-item dropdown nav-dropdown-search hidden-sm-down">
-              <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="icon-search"></span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-menu-search" aria-labelledby="dropdownMenu1">
-                <form class="navbar-form">
-                  <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
-                </form>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="transport.html">Transportation</a>
+                <a class="dropdown-item" href="lift.html">Heavy Lifting</a>
+                <a class="dropdown-item" href="erect.html">Erection</a>
+                <a class="dropdown-item" href="rental.html">Rental</a>
+                <a class="dropdown-item" href="contra.html">Contracting</a>
+                <a class="dropdown-item" href="tsol.html">Total Solutions</a>
+                <a class="dropdown-item" href="energy.html">Energy Support</a>
               </div>
             </li>
-            <li class="nav-item dropdown hidden-sm-down">
-              <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <img src="img/face5.jpg" height="40" width="40" alt="Avatar" class="img-circle"> <span class="icon-caret-down"></span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated" aria-labelledby="dropdownMenu2">
-                <div class="media">
-                  <div class="media-left">
-                    <img src="img/face5.jpg" height="60" width="60" alt="Avatar" class="img-circle">
-                  </div>
-                  <div class="media-body media-middle">
-                    <h5 class="media-heading">Joel Fisher</h5>
-                    <h6>hey@joelfisher.com</h6>
-                  </div>
-                </div>
-                <a href="#" class="dropdown-item text-uppercase">View posts</a>
-                <a href="#" class="dropdown-item text-uppercase">Manage groups</a>
-                <a href="#" class="dropdown-item text-uppercase">Subscription &amp; billing</a>
-                <a href="#" class="dropdown-item text-uppercase text-muted">Log out</a>
-                <a href="#" class="btn-circle has-gradient pull-xs-right">
-                  <span class="sr-only">Edit</span>
-                  <span class="icon-edit"></span>
-                </a>
-              </div>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="equipment.html">Equipments</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="saftey.html">Safety</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="client.html">Clients</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
-        </div>
-        <div id="collapsingMobileUser" class="collapse navbar-toggleable-custom dropdown-menu-custom p-x-1 hidden-md-up" role="tabpanel" aria-labelledby="collapsingMobileUser">
-          <div class="media m-t-1">
-            <div class="media-left">
-              <img src="img/face5.jpg" height="60" width="60" alt="Avatar" class="img-circle">
-            </div>
-            <div class="media-body media-middle">
-              <h5 class="media-heading">Joel Fisher</h5>
-              <h6>hey@joelfisher.com</h6>
-            </div>
-          </div>
-          <a href="#" class="dropdown-item text-uppercase">View posts</a>
-          <a href="#" class="dropdown-item text-uppercase">Manage groups</a>
-          <a href="#" class="dropdown-item text-uppercase">Subscription &amp; billing</a>
-          <a href="#" class="dropdown-item text-uppercase text-muted">Log out</a>
-          <a href="#" class="btn-circle has-gradient pull-xs-right m-b-1">
-            <span class="sr-only">Edit</span>
-            <span class="icon-edit"></span>
-          </a>
         </div>
       </div>
     </nav>
